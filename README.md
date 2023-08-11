@@ -59,4 +59,4 @@ Além dos requisitos levantados acima, iremos olhar para os seguintes critérios
 
 _O desafio acima foi cuidadosamente construído para propósitos de avaliação apenas. Já possuimos uma funcionalidade similar na nossa plataforma._
 
-Made with 💜 at Rocketseat
+Made with 💜 at DavidLucasK
