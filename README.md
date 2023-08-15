@@ -39,4 +39,4 @@ Além dos requisitos levantados acima, foram utilizados alguns critérios para a
 
 _O desafio acima foi cuidadosamente construído para propósitos de avaliação apenas. Já que sempre testo minhas habilidades com diversos projetos e idéias._
 
-Made with 💜  DavidLucasK
+Made with 💜 by DavidLucasK
