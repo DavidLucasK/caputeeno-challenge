@@ -11,7 +11,7 @@ const FooterContainer = styled.div`
     display: grid;
     justify-content: center;
     align-items: center;
-    height: 120px;
+    height: 100px;
 
     p {
         font-weight: 500;

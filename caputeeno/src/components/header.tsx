@@ -58,7 +58,7 @@ export function Header(props : HeaderProps){
 
     return(
         <TagHeader>
-            <Logo href="https://caputeeno-challenge.vercel.app/" className={sairaStencil.className}>Caputeeno</Logo>
+            <Logo className={sairaStencil.className}>Caputeeno</Logo>
             <div>
                 <PrimaryInputSearchIcon
                     value={search}
