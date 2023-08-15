@@ -30,18 +30,13 @@ const SocialIcons = styled.div`
         cursor: pointer;
     }
 
-    a:nth-child(2) {
-        filter: invert();
-        background-color: white;
-    }
-
 `
 
 export function Footer(props: FooterProps){
    return(
        <FooterContainer>
         <SocialIcons>
-            <a href="https://github.com/DavidLucasK/caputeeno-challenge">
+            <a href="https://github.com/DavidLucasK/caputeeno-challenge" target="_blank">
                 <GitHubIcon/>
             </a>
         </SocialIcons>
