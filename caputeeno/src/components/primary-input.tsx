@@ -19,7 +19,7 @@ export const PrimaryInput = styled.input`
 
 const InputContainer = styled.div`
     position: relative;
-    width: 250px;
+    width: 352px;
 
     svg {
         position: absolute;
