@@ -11,8 +11,8 @@ O desafio foi implementar um e-commerce para venda de canecas e camisetas que te
 - [✅] Catálogo de produtos com paginação
 - [✅] Filtragem produtos por categoria
 - [✅] Busca por nome do produto
-- [❌] Adicionar e remover produtos do carrinho
-- [❌] Finalizar compra
+- [✅] Adicionar e remover produtos do carrinho
+- [✅] Finalizar compra
 
 ## 📋 Instruções
 

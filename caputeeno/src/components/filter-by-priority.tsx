@@ -1,5 +1,5 @@
 import { styled } from "styled-components"
-import { ArrowIcon } from "./Arrow-icon"
+import { ArrowIcon } from "@/components/icons/Arrow-icon"
 import { useState } from "react"
 import { useFilter } from "@/hooks/use-filter"
 import { PriorityTypes } from "@/types/priority-types"
@@ -11,6 +11,9 @@ const FilterContainer = styled.div`
 
     button {
         border: none;
+        background: transparent;
+        cursor: pointer;
+
         font-family: inherit;
         font-weight: 400;
         font-size: 14px;
@@ -30,17 +33,15 @@ const FilterContainer = styled.div`
 const PriorityFilter = styled.ul`
     position: absolute;
     width: 250px;
-    background: white;
+    background: #FFFFFF;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
     padding: 12px 16px;
+    z-index: 999;
 
     list-style: none;
 
     top: 100%;
-
-    z-index: 1;
-
     right: 8px;
 
     li {
@@ -58,7 +59,6 @@ const PriorityFilter = styled.ul`
 
 export function FilterByPriority(){
     const [isOpen, setIsOpen] = useState(false)
-
     const { setPriority } = useFilter()
 
     const handleOpen = () => setIsOpen(prev => !prev)

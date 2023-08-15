@@ -12,12 +12,6 @@ interface ProductProps {
 }
 
 const Container = styled.div`
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-
     section {
         display: flex;
         justify-content: center;

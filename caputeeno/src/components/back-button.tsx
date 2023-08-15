@@ -1,10 +1,10 @@
 import { styled } from "styled-components";
-import { BackIcon } from "./back-icon";
+import { BackIcon } from "./icons/back-icon";
 import { useRouter } from "next/navigation";
 
 const Button = styled.button`
     display: flex;
-    align-items: center;
+    align-items: flex;
     justify-content: center;
     gap: 8px;
     background: transparent;
