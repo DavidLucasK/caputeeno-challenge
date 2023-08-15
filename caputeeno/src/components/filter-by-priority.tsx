@@ -41,6 +41,8 @@ const PriorityFilter = styled.ul`
 
     z-index: 1;
 
+    right: 8px;
+
     li {
         color: var(--text-dark);
         font-weight: 400;
