@@ -13,10 +13,24 @@ const CartCount = styled.span`
     color: white;
 
     margin-left: -10px;
+
+    @media (min-width: ${props => props.theme.desktopBreakpoint}) {
+    margin-left: -10px;
+}
 `
 
 const Container = styled.div`
     position: relative;
+
+    @media (min-width: ${props => props.theme.desktopBreakpoint}) and (max-width: 946px) {
+        position: absolute;
+        margin-left: 450px;
+    }
+
+    @media (min-width: ${props => props.theme.desktopBreakpoint}) and (max-width: 797px) {
+        position: fixed;
+        margin-left: 430px;
+    }
 `
 
 export function CartControl(){
@@ -25,7 +39,7 @@ export function CartControl(){
     return (
         <Container>
             <CartIcon/>
-            {value.length && <CartCount>{value.length}</CartCount>}
+            {value.length > 0 && <CartCount>{value.length}</CartCount>}
         </Container>
     )
 }
