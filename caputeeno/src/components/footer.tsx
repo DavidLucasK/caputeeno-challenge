@@ -29,6 +29,12 @@ const SocialIcons = styled.div`
     a {
         cursor: pointer;
     }
+
+    a:nth-child(2) {
+        filter: invert();
+        background-color: white;
+    }
+
 `
 
 export function Footer(props: FooterProps){
