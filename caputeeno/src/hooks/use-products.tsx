@@ -1,5 +1,5 @@
 import { FilterType } from "@/types/filter-types";
-import { ProductsFetchResponse } from "@/types/procuts-response";
+import { ProductsFetchResponse } from "@/types/products-response";
 import { mountQuery } from "@/utils/graphql-filters";
 import { useQuery } from "@tanstack/react-query";
 import axios, { AxiosPromise } from "axios";
